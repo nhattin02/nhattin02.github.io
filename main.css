@@ -1,0 +1,297 @@
+                                                                                    /* sổ sứ mệnh */
+#top{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: none !important;
+}
+.top-nav{
+    background: url("image/bg-nav-top.png") top center no-repeat;
+    height: 156px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.top1{
+    width: 1168px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-LQ{
+    width: 316px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -160px;
+}
+.top-menu{
+    overflow: hidden;
+}
+.top-menu li {
+    float: left;
+    margin: 10px;
+    font-size: 26px;
+}
+.top-menu li:nth-of-type(4),
+.top-menu li:nth-of-type(5),
+.top-menu li:nth-of-type(6) {
+    float: right;
+    font-size: 26px;
+}
+.top-menu li a{
+    padding: 0px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 60px;
+    display: inline-block;
+    background: url("image/top-gach.jpg") center left no-repeat;
+}
+img{
+    border: 0 none;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+Body, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt, blockquote, fieldset, legend, label, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: none !important;
+}
+
+
+
+
+                                                                /* down */
+.download{
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+.download .download-gg {
+    background: url("image/bt-down.png") top right;
+    width: 286px;
+    height: 90px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.download .download-app {
+    background: url("image/bt-down.png") top center;
+    width: 286px;
+    height: 90px;
+    display: inline-block;
+}
+
+
+
+                                                                /* tin tức mới nhất */
+.blocknews {
+    background: url("image/boxbig.png") bottom center no-repeat; padding: 0px 0 50px 0;    background-color: #160e1e;
+}
+#news{
+    text-align: center;    width: 100%px;    height: 808.59px;
+}
+
+.title {
+    font-size: 36px;    text-transform: uppercase;    text-align: center;    font-weight: bold;    line-height: 40px;    color: #cfc39b;    padding: 50px;
+}
+.box-left{
+    float: left;    margin-left: 270px;    width: 660px;    height: 600px;
+}
+.nd{
+    text-align: -webkit-left;
+}
+.box-left a{
+    font-size: 23px;    color: #cfc39b;    font-weight: bold;    text-transform: uppercase;
+}
+.box-right a{
+    font-size: 23px;    color: #cfc39b;    font-weight: bold;    text-transform: uppercase;
+}
+.box-left .box1{
+    width: 100%;    height: 280px;    border: 2px solid #cfc39b;
+}
+.box-left .box2{
+    width: 300px;    height: 280px;    border: 2px solid #cfc39b;    float: left;    margin-top: 35px;
+}
+.box-left .box3{
+    width: 300px;    height: 280px;    border: 2px solid #cfc39b;    float: right;    margin-top: 35px;
+}
+
+.box-right{
+    float: right;    margin-right: 270px;    width: 660px;    height: 60px;
+}
+.box-right .box1{
+    width: 100%;    height: 280px;    border: 2px solid #cfc39b;
+}
+.box-right .box2{
+    width: 300px;    height: 280px;    border: 2px solid #cfc39b;    float: left;    margin-top: 35px;
+}
+.box-right .box3{
+    width: 300px;    height: 280px;    border: 2px solid #cfc39b;    float:right;    margin-top: 35px;
+}
+
+
+
+
+/* tướng miễn phí tuần */ 
+.free { 
+    background:url("image/background-free.jpg") bottom center no-repeat; 
+    background-size:1920px 100%;  
+    padding:5% 0; 
+    position:relative; 
+    height: 970px;
+}
+.size-tab { 
+    min-height:400px; 
+    position:relative; 
+    position:relative;
+}
+.tab {
+    clear: both; 
+    position:absolute; 
+    left:400px; 
+    top:40px; 
+    z-index:2;
+}
+.tab li {
+    width:135px;
+    opacity:0.9;
+    position:absolute;
+    z-index:99;
+}
+.tabs li .mark-at { 
+    background:url("image/khung.png") center no-repeat; 
+    background-size:100%; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    display:none;
+}
+.tab li.current .mark-at,.tab li:hover .mark-at { 
+    display:block; 
+    position:absolute; 
+    z-index:99;
+}
+.tab li.current,.tab li:hover { opacity:1}
+.tab li:nth-of-type(1){ left:0; top:0}
+.tab li:nth-of-type(2){left:140px; top:0}
+.tab li:nth-of-type(3){left:67px; top:120px}
+.tab li:nth-of-type(4){left:207px; top:120px}
+.tab li:nth-of-type(5){left:0; top:235px}
+.tab li:nth-of-type(6){left:140px; top:235px}
+.tab li a { display:block}
+.free .cont-heros {}
+.free .cont {display: none; position:relative}
+
+
+#hero-1 { display:block}
+
+
+                                                                        /* cấu hinh đt */
+.cauhinh{
+    background: url("image/background-cauhinh.jpg");
+    width: 1900px;
+    height: 898px;
+    text-align: center;
+}
+.note{
+    font-size: 14px;
+    margin: 0px 200px 20px 200px;
+    text-align: center;
+    color: #fff;
+}
+.cauhinh .note-android {
+    width: 50%;
+    padding-right: 15px;
+    float: left;
+}
+.cauhinh .android {
+    border: 1px solid #ae903b;
+    overflow: hidden;
+    width: 569px;
+    height: 232px;
+}
+.android .colleft {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+.android .colleft p {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+.android .colright {
+    float: left;
+    width: 75%;
+    padding: 15px;
+    border-left: 1px solid #ae903b;
+    min-height: 230px;
+}
+.android .colright h2 {
+    color: white;
+    font-size: 20px;
+    text-align: -webkit-left;
+}
+.android .colright p {
+    color: white;
+    font-size: 18px;
+    text-align: -webkit-left;
+}
+.cauhinh .note-ios {
+    width: 50%;
+    padding-left: 15px;
+    float: right;
+}
+
+
+
+
+                                                                    /* footer */
+footer {
+    padding: 3px 0 0px 0;
+    text-align: center;
+    background: url("image/boxbig.png") top center no-repeat;
+}
+.bottom{
+    width: 100%;
+    height: 420px;
+    background-color: #160e1e;
+    text-align: center;
+    padding: 75px 0px 0px 0px ;
+}
+footer .address {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    width: 80%;
+    margin: 10px auto 0 auto;
+    font-size: 18px;
+    color: #fff;
+}
+ul.menu-footer {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+ul.menu-footer li {
+    display: inline;
+}
+a {
+    color: #3372b2;
+    text-decoration: none;
+    outline: none !important;
+    font-size: 18px;
+}
