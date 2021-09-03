@@ -169,15 +169,8 @@ Body, div, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dd, dt, blockquote, f
     position:absolute;
     z-index:99;
 }
-.tabs li .mark-at { 
-    background:url("image/khung.png") center no-repeat; 
-    background-size:100%; 
-    position:absolute; 
-    top:0; 
-    left:0; 
-    right:0; 
-    bottom:0; 
-    display:none;
+.tab li img:hover{
+    background: url("image/khung.png");
 }
 .tab li.current .mark-at,.tab li:hover .mark-at { 
     display:block; 
